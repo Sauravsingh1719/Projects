@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playpen+Sans:wght@500&family=Tilt+Neon&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.loader h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Playpen Sans', cursive;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    color: #fff;
+    font-family: 'Playpen Sans', cursive;
+}
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    font-size: x-large;
+}
+.nav-list ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+.nav-list ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    font-size: xx-large;
+    cursor: pointer;
+}
+.connect{
+    background-color: red;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 18px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Playpen Sans', cursive;
+}
+.hero{
+    color: #fff;
+}
+.hero h1{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.HERO-H1{
+    margin-top: 10%;
+}
+.imghero{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 20%;
+    left: 10%;
+    border-radius: 25px;
+    z-index: -1;
+}
+.imghero2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 60%;
+    right: 10%;
+    border-radius: 25px;
+    z-index: -1;
+}
+#scroll{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.contact{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px; 
+    padding: 10px;
+    margin-top: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+}
+.contact-right button{
+    width: 40%;
+    margin-top: 10px;
+
+}
+.contact input{
+    padding: 10px 20px;
+    font-family: 'Playpen Sans', cursive;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+   
+}
+.contact button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: crimson;
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.contact img{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+footer{
+    color: #fff;
+}
+.card-section{
+    background-color: #fff;
+    margin-top: 150px;
+}
+.card-1img img{
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    margin-left: 5%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.card-2img img{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.card-h1{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+.card-1, .card-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+.card-2, .card-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #212529;
+    color: #fff;
+}
+.card-1des, .card-2des, .card-3des, .card-4des{
+    margin-top: 150px;
+
+}
+.car-2des{
+    padding-left: 150px;
+}
+.card-1des h1, .card-2des h1, .card-3des h1, .card-4des h1{
+    font-family: Black Ops One;
+    font-weight: 900;
+    font-size: 60px;
+}
+.card-1des p, .card-2des p, .card-3des p, .card-4des p{
+    font-family: 'Playpen Sans', cursive;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.cont h1{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+}
+hr{
+    color: #fff;
+    padding: 0 25px;
+}
+.done{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    display: none;
+    margin-top: 100px;
+}
+.done img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.done button{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px 22px;
+    font-size: 25px;
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
