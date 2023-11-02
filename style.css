@@ -267,3 +267,39 @@ hr{
     border-radius: 20px;
     cursor: pointer;
 }
+@media screen and (max-width: 900px) {
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        display: block; 
+        width: 100%; 
+        margin: 0 auto; 
+    }
+
+    .card-1img img,
+    .card-2img img,
+    .card-3 img,
+    .card-4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1des,
+    .card-2des,
+    .card-3des,
+    .card-4des {
+        margin-top: 20px; 
+        text-align: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        width: 100%;
+    }
+    #submit-button{
+        width: 100%;
+    }
+}
